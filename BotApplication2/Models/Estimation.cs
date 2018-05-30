@@ -40,7 +40,7 @@ namespace BotApplication2.Models
         
         //[Optional]
         //[Template(TemplateUsage.NoPreference,"None")]
-        [Prompt("Are you upgrading to Dynamics 365 from CRM online or onprem?")]
+        [Prompt("Are you upgrading to Dynamics 365 from CRM online or onprem?{||}")]
         public CrmTypes? UpgradeFrom;
 
         //[Prompt("What is the number of users you expect will be using the software")]
